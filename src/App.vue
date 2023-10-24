@@ -6,9 +6,9 @@ import Header from '@/components/Header.vue';
 <template>
   <HeaderAccueil v-if="$route.path === '/'" />
   <Header v-else />
-  <Synapse>
+  <Suspense>
   <RouterView />
-  </Synapse>
+  </Suspense>
 </template>
 
 <style scoped>

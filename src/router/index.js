@@ -1,4 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Index from '../views/Index.vue'
+import Inscription from '../views/Inscription.vue'
 
 // Import pocketbase
 //import PocketBase from 'pocketbase'
@@ -8,7 +10,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    // { path: '/',              name: 'HomeView',           component: HomeView },
+     { path: '/',              name: 'Index',           component: Index },
+     { path: '/Inscription',              name: 'Inscription',           component: Inscription },
   ]
 })
 
