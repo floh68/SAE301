@@ -4,15 +4,15 @@
       
       <nav class="flex items-center mx-auto">
           <div class="bg-dark p-4 font-roboto font-semibold">
-              <ul class="flex space-x-4">
+              <ul class="flex space-x-4 text-blanc">
                   <li>
-                    <RouterLink class="text-black px-8" to="/inscription">Configurateur</RouterLink>
+                    <RouterLink class="RouterLink px-8" to="/inscription">Configurateur</RouterLink>
                   </li>
                   <li>
-                    <RouterLink class="text-black px-8" to="/">Lunettes</RouterLink>
+                    <RouterLink class="RouterLink px-8" to="/">Lunettes</RouterLink>
                   </li>
                   <li>
-                    <RouterLink class="text-black px-8" to="/">Notre histoire</RouterLink>
+                    <RouterLink class="RouterLink px-8" to="/">Notre histoire</RouterLink>
                   </li>
               </ul>
           </div>
